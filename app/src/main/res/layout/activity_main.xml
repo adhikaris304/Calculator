@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="30dp"
-    android:layout_marginBottom="50dp"
+    android:layout_marginBottom="60dp"
     >
 <TextView
     android:id="@+id/ettext"
@@ -28,20 +28,22 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnClear"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="AC"/>
+        <Button
             android:id="@+id/btnCancel"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="C"/>
+
         <Button
             android:id="@+id/btnper"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="%"/>
-        <Button
-            android:id="@+id/btnbrac"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="()"/>
+
         <Button
             android:id="@+id/btnbdivide"
             android:layout_width="100dp"
